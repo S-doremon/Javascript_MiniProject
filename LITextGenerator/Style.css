@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 20px;
+    color: rgb(237, 15, 96);
+    text-align: center;
+    box-shadow: 0 0 10px papayawhip;
+    background-color: aquamarine;
+}
+.container{
+    text-align: center;
+    margin: 25px;
+}
+.container label{
+    font-size: 18px;
+    
+}
+.container .btn{
+    margin: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(156, 152, 239);
+    color: black;
+    font-size: 15px;
+}
+#textA{
+    width: 800px;
+    height: 50vh;
+    margin: 50px;
+    padding: auto;
+}

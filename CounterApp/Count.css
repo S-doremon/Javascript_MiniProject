@@ -1,0 +1,27 @@
+.container{
+    width: 600px;
+    height: 250px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgb(113, 243, 113);
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    color: blueviolet;
+}
+p{
+    font-size: 20px;
+    font-family: 'italian';
+    color: rgb(10, 84, 60);
+}
+button{
+    padding: 5px;
+    color: white;
+    background-color: rgb(111, 111, 228);
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

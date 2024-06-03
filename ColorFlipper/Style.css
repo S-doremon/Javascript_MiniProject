@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .main{
+    background-color: rgb(33, 31, 31);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin: 10px 0px;
+
+}
+.container .main p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 500px;
+}
+
+.container .btn:hover{
+    background-color: black;
+    color: white;
+}
