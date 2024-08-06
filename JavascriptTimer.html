@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>JS Timer</title>
+</head>
+<body>
+    <h1>!!Javascript Timer!!</h1>
+    <button onclick="start()">Start</button>
+
+    <button onclick="stop()">Stop</button>
+    <script>
+        //setTimeout=> execte code after a delay
+
+        //setInterval=> execute a code at regular intervals
+
+        //we have to write our code that we want to execute after 5 sec 
+        function myCode(){
+            console.log("Hey... i am rocky!!");
+            console.log("How are you?");
+        }
+        let timer;
+        function start(){
+           // myCode();
+           setTimeout(myCode, 5000); 
+           timer= setInterval(myCode,2000);
+           console.log(timer);
+        }
+
+        function stop(){
+            clearInterval(timer);
+        }
+
+    </script>
+    
+</body>
+</html>
